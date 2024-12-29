@@ -1015,7 +1015,6 @@ def extract_urls_from_text(text: str) -> list:
     # 去重并保持顺序
     seen = set()
     return [url for url in urls if not (url in seen or seen.add(url))]
-
 if __name__ == '__main__':
     import sys, os, re
     import argparse

@@ -12,6 +12,5 @@ certifi>=2023.11.17
 ffmpeg-python>=0.2.0
 
 # Optional dependencies for better performance
-torch>=2.1.0
 pytube>=15.0.0
 you-get>=0.4.1650
